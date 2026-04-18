@@ -22,9 +22,9 @@ const routes = [
   },
   {
     path: '/blog',
-    name: 'blog',
+    name: 'Contact',
     component: () => import('../views/BlogView.vue'),
-    meta: { title: 'Blog' }
+    meta: { title: 'Contact' }
   },
   {
     path: '/read/:slug/:id',
@@ -40,7 +40,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title + ' - bagasRakha();'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
+  document.title = to.meta.title + ' - Dandi Erlangga'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
   next();
 });
 

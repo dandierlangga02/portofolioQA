@@ -6,49 +6,67 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Personal Website',
-          imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
+          name: 'Para Bank',
+          imageUrl: 'parabank',
+          status: 'Automated testing for core banking flows: user registration, account overview, and fund transfers.',
+          tech: 'Selenium, Java',
+          github: 'https://github.com/dandierlangga02/Selenium-by-JAVA',
+          demo: 'https://parabank.parasoft.com/parabank/index.htm;jsessionid=745F43BF8DE689B83D97096ED0E4B4A0'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
+          name: 'Orange HRM',
+          imageUrl: 'orangehrm',
+          status: 'Validated HR functionalities including login, employee record management, and role-based access control.',
+          tech: 'Playwright, Javascript',
+          github: 'https://github.com/dandierlangga02/Selenium-by-JAVA',
           demo: 'https://sahabat-muslim.netlify.app/'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          name: 'Herokuapp',
+          imageUrl: 'herokuapp',
+          status: 'Tested complex web elements such as dynamic loading, iframes, JavaScript alerts, and drag-and-drop.',
+          tech: 'katalon, Java',
           github: 'null',
           demo: 'null'
         },
         {
           id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          name: 'DEMO QA',
+          imageUrl: 'demoqa',
+          status: 'Conducted UI testing on complex forms, dynamic widgets, date pickers, and multi-window interactions.',
+          tech: 'Selenium, Python',
           github: 'null',
           demo: 'null'
         },
         {
           id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
+          name: 'Automation Exercise',
+          imageUrl: 'automationexercise',
+          status: 'End-to-end testing for e-commerce, covering user signup, cart management, and the complete checkout process.',
+          tech: 'Playwright, Typescript',
           github: 'null',
           demo: 'null'
-        }
+        },
+        {
+          id: 6,
+          name: 'Swag Labs',
+          imageUrl: 'swaglabs',
+          status: 'Automated critical user journeys including authentication, product catalog interaction, and checkout.',
+          tech: 'Playwright, Typescript',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 7,
+          name: 'Swagger API',
+          imageUrl: 'swagger',
+          status: 'Performed API testing for CRUD operations, validating response status codes, data schemas, and endpoints.',
+          tech: 'Jest, Typescript',
+          github: 'null',
+          demo: 'null'
+        },
       ]
     };
   }
@@ -61,9 +79,9 @@ export default {
         <div
           class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
-          <h4>Past Project Experience</h4>
+          <h4>Project Showcase & Case Studies</h4>
           <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Explore the projects I've worked on so far</h4>
+            Due to confidentiality agreements (NDA), my professional corporate work is private. Below is a curated collection of real-world simulations designed to demonstrate my testing methodologies and automation skills.</h4>
         </div>
       </header>
       <section>
@@ -74,7 +92,7 @@ export default {
                 class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
                 <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
                   <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded rounded-xl"
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                    :src="'/img/' + item.imageUrl + '.png'">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
                   <div class="title-text font-medium text-secondary">{{ item.name }}

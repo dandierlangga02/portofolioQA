@@ -6,101 +6,125 @@ export default {
       tech: [
         {
           id: 1,
-          name: 'HTML',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+          name: 'Postman',
+          imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png',
           status: 'Advanced'
         },
         {
           id: 2,
-          name: 'CSS',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+          name: 'Playwright',
+          imageUrl: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/2/playwright-y50bnthygb3rvsppvkm9e.png/playwright-q55xzpenhgjsodksybst.png?_a=DATAiZAAZAA0',
           status: 'Advanced'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
+          name: 'Selenium',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png',
           status: 'Advanced'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          name: 'Katalon',
+          imageUrl: 'https://d1dykungmee0hk.cloudfront.net/wp-content/uploads/2024/05/Logo-1_1.png',
           status: 'Advance'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
+          name: 'Cypress',
+          imageUrl: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/cypress-icon-moigrz5nimpd7rsob0bisu.png/cypress-icon-pg9bdlubveoefqouilbg.png?_a=DATAiZAAZAA0',
           status: 'Advance'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          name: 'Appium',
+          imageUrl: 'https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/1/appium-gxikqpgiyec2lwddw3q9vb.png/appium-l40hxiyidj8nmoiwe5wjk.png?_a=DATAiZAAZAA0',
           status: 'Intermediate'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          name: 'Webdriver IO',
+          imageUrl: 'https://webdriver.io/img/webdriverio.png',
           status: 'Intermediate'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'Jest',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-jest-logo-icon-svg-download-png-2945020.png',
           status: 'Beginner'
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+          name: 'RestAssured',
+          imageUrl: 'https://avatars.githubusercontent.com/u/19369327?v=4',
           status: 'Beginner'
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+          name: 'J - Meter',
+          imageUrl: 'https://jmeter.apache.org/images/mstile-144x144.png',
           status: 'Advance'
         },
         {
           id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+          name: 'GIT',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/3840px-Git_icon.svg.png',
           status: 'Intermediate'
         },
         {
           id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+          name: 'Cucumber',
+          imageUrl: 'https://cdn-public.softwarereviews.com/production/favicons/offerings/7370/original/Cucumber_studio_icon.png',
+          status: 'Beginner'
+        },
+        {
+          id: 13,
+          name: 'Jira',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968875.png',
+          status: 'Beginner'
+        },
+        {
+          id: 14,
+          name: 'Testrail',
+          imageUrl: 'https://www.test3labs.com/_next/static/media/testrail.d6adb3b9.png',
+          status: 'Beginner'
+        },
+        {
+          id: 15,
+          name: 'DBeaver',
+          imageUrl: 'https://store-images.s-microsoft.com/image/apps.43022.14342653579960902.940fae20-fb9a-47f6-b71d-9bbb99a5e739.d9a5a219-36c3-4fe6-adc0-90ca5ea32dff?h=210',
           status: 'Beginner'
         }
       ],
       tools: [
         {
           id: 1,
-          name: 'Git',
-          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          name: 'Python',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png',
+          status: 'Advance'
         },
         {
           id: 2,
-          name: 'GitHub',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
-          status: 'Git Hosting'
+          name: 'Java',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/226/226777.png',
+          status: 'Advance'
         },
         {
-          id: 3,
-          name: 'NPM',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          id:3,
+          name: 'Javascript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Advance'
         },
         {
           id: 4,
+          name: 'Typescript',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/919/919832.png',
+          status: 'Advance'
+        },
+        {
+          id: 5,
           name: 'MySQL',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          status: 'Advance'
         },
       ]
     };
@@ -124,22 +148,14 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+            src="img\PAS FOTO_1 PUTIH.png" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Hello! I'm Muhamad Dandi Erlangga, a Quality Assurance Engineer based in Jakarta. With a year of experience in the field, I view software testing as more than just finding bugs—it's the art of perfecting a product. I am passionate about ensuring seamless user experiences and believe that a meticulous, well-crafted test strategy holds its own unique aesthetic value.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; My job is to ensure your application is highly functional, reliable, and user-friendly. Through meticulous testing, I provide a thorough evaluation of your product, ensuring that it performs flawlessly and delivers a seamless experience for your users. My goal is to protect your brand's reputation by maintaining the highest standard of software quality. If you are looking for someone to elevate your product's quality, please reach out through the listed contact.
           </p>
         </div>
 
@@ -162,11 +178,11 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tools</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Language</button>
             </li>
           </ul>
         </div>
